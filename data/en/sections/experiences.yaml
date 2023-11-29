@@ -1,0 +1,49 @@
+# section information
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+experiences:
+- company:
+    name: Blue Fire Electronics
+    url: "https://www.bluefireelectronics.ca"
+    location: Kelowna
+    overview: "A wealth of knowledge in software/hardware development and custom electronics, Blue Fire Electronics is a rapidly growing startup that aims to provide the best experience for our customers by providing custom software and hardware solutions for any problem. "
+  positions:
+    - designation: Software Engineer and Developer
+      start: july 2022
+      end: Sept 2023
+      responsibilities:
+        - integrated and improved upon legacy software 
+        - provided insight into potential opportunities for growth
+        - design and advise on integrated circuits for shop use
+        - C# development for custom verification automation
+        - Utilize Java development practices to update and improve company CRM application
+        - iphone app development utilizing objective C with a heavy focus on refactoring legacy codebase into swift (incomplete)
+
+    - designation: Shop Operations Assistant
+      start: December 2022
+      end: sept 2023
+      responsibilities:
+        - second in command to the CEO
+        - all roles required for a successful refurbishment process
+        - managed a small team
+        - directly communicate with the CEO to implement and improve best practices 
+        - improve and develop new workflows 
+        - provide feedback to improve any aspects relating to the refurbishment process
+
+    - designation: Jr. Software developer
+      start: oct 2021
+      end: july 2022
+      responsibilities:
+        - code review
+        - documentation
+        - recommendations
+        - development environment setup and testing
+        - Infrastructure deployment and research
+

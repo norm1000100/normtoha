@@ -1,0 +1,46 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B.Sc. in Computer Science
+  icon: fa-graduation-cap
+  timeframe: 2017-2021
+  institution:
+    name: University of Northern British Columbia
+    url: "https://unbc.ca/"
+  grade: #(optional)
+    scale: GPA
+    achieved: 3.0
+    outOf: 4.33
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Data Structures and Algorithms
+      achieved: 3.75
+      outOf: 4.33
+    - name: Network Security
+      achieved: 3.80
+      outOf: 4.33
+    - name: Operating System
+      achieved: 3.5
+      outOf: 4.33
+    - name: Artificial Intelligent
+      achieved: 3.75
+      outOf: 4.33
+  extracurricularActivities: #(optional)
+  - Computer Science Club President from 2018-2021
+  - Survived a pandemic
+  - Got Married
+  - Attempted a honours thesis (incomplete due to covid restrictions)
+
+

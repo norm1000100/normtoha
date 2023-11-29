@@ -1,0 +1,47 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: (Former) Jr. Software Engineer and Operations Assistant
+# your company information
+company:
+  name: Blue Fire Electronics 
+  url: "https://bluefireelectronics.ca/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a innovator with a passion for embedded systems and software development. I have 2 years of Jr. software experience in an open collaboration startup that focused on industrial design and testing.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/norm1000100"
+- name: Linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/braedenvandervelde/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Leadership
+  percentage: 85
+  color: blue
+- name: Team Work
+  percentage: 90
+  color: yellow
+- name: Devops
+  percentage: 80
+  color: green
+- name: Management 
+  percentage: 75
+  color: orange

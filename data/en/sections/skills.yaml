@@ -1,0 +1,31 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Android Development
+  logo: "/images/sections/skills/android.png"
+  summary: "Experience developing and revamping Android applications in a production environment using a variety of development tools"
+  url: "https://android.com/"
+
+- name: C# Development
+  logo: "/images/sections/skills/csharp.png"
+  summary: "Experience creating specialized windows applications for use in automation of reetetive tasks and verification. Experience redeploying software into model-view-controller architecture"
+  url: "https://dotnet.microsoft.com/en-us/languages/csharp"
+
+- name: Embedded design
+  logo: "/images/sections/skills/kicad.png"
+  summary: "Creating custom PCBs in KiCad for personal and professional projects. Experience collaborating with electrical engineers to create functional prototypes for business use."
+  url: "https://www.kicad.org/"
+
+- name: Git
+  logo: "/images/sections/skills/git.png"
+  summary: "Deploying and developing projects while utilizing git, primarily private repos and occasionally through github."
